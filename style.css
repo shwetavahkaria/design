@@ -1,0 +1,422 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #998c65;
+    height: 100%;
+}
+.header-container{
+    height: auto;
+    margin-top: 1%;
+}
+.text-container span{
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2.3px;
+}
+.header-logo{
+    float: left;
+    z-index: 99;
+    position: relative;
+    margin-left: 11%;
+}
+.menu-main-container{
+    float: right;
+}
+.menu-container ul li{
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+}
+.menu-container{
+    width: 100%;
+    float: left;
+}
+.menu-container ul{
+    float: right;
+}
+.menu-container ul li a{
+    border-right: 1px solid #b3a57f;
+    color: #771f19;
+    font-family: Ivy League;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+.menu-container ul li a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.mainMenu{
+    width: 100%;
+    background-color: #771f19;
+    float: left;
+    display: block;
+    position: relative;
+    margin: -68px 0 auto;
+}
+.sliderMenu{
+    margin-left: 22%;
+    width: 80%;
+}
+.sliderMenu ul{
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.sliderMenu ul li{
+    border-right: 1px solid #000000;
+    text-transform: uppercase;
+    float: left;
+}
+.sliderMenu ul li a{
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1.08px;
+    padding: 8px 15px;
+    font-family: Ivy League;
+    color: #eddfbb;
+}
+.sliderBackgroundImage{
+    background-image: url("slider_bg_new.png");
+    margin-top: -30px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.Container{
+    width: 940px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+.silderButtonMain{
+    margin-top: 19%;
+    margin-left: 0%;
+    margin-right: 4%;
+    padding-left: 0;
+    width: 25%;
+    float: left;
+}
+.sliderImageMain{
+    width: 70%;
+    float: left;
+}
+.slider-button{
+    background-image: url("slider_first_button.png");
+    height: 87px;
+    position: relative;
+    width: 462px;
+    z-index: 99;
+    position: relative;
+}
+.slider-second-button{
+    background: url("slider_first_button.png");
+    height: 87px;
+    position: relative;
+    width: 462px;
+    z-index: 99;
+    position: relative;
+}
+.sliderButtonTopText{
+    color: #eddfbb;
+    font-family: Ivy League;
+    font-size: 25px;
+    left: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 6px;
+}
+.sliderButtonBottomText{
+    color: #eddfbb;
+    font-family: Ivy League;
+    font-size: 18px;
+    left: 15px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 37px;
+    z-index: 199;
+}
+.updateMain{
+    width: 100%;
+    float: left;
+}
+.updateImage{
+    background-image: url("updated.png");
+    width: 100%;
+    float: left;
+    height: 35px;
+    position: relative;
+}
+.updateTop{
+    margin-top: 10px;
+}
+.updateImageText{
+    color: #eddfbb; 
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    width: 70%;
+    margin-top: 0.5%;
+    width: 900px;
+}
+.upcomingSales{
+    width: 50%;
+    margin-top: 15px;
+    color: #000;
+    float: left;
+}
+.comingSalesText{
+    background-color: #ab9f77;
+    color: #000000;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    padding: 2px 1px 2px 5px;
+    width: 100%;
+}
+.marketReportText{
+    background-color: #771f19;
+    color: #eddfbb;
+    font-family: ivy league;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 46%;
+}
+.borderTextRight{
+    border-right: 3px solid #998c65;
+}
+.northCentral{
+    color: #000;
+    margin-top: 65px;
+    width: 47%;
+    float: left;
+    margin-left: 3%;
+}
+.upcomingRightText{
+    font-size: 29px;
+}
+.footer-container{
+    width: 100%;
+    background-color: #221f1f;
+    float: left;
+}
+.footerContainer{
+    margin-top: 2%;
+}
+.footerBorder{
+    border-right: 1px solid #5e5642;
+}
+.footerLocation{
+    width: 25%;
+    float: left;
+}
+.footerBorder{
+    border-right: 1px solid #5e5642;
+}
+.footerBelow{
+    padding-bottom: 10px;
+}
+.locationNameText{
+    color: #978c65;
+    font-size: 18px;
+}
+.footerFirstBlock{
+    margin-left: 13%;
+}
+.footerFirstBlock a{
+    color: #cbc4b0;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.footerSecondBlock{
+    margin-top: 10%;
+}
+.footerSecondBlock a{
+    color: #cbc4b0;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.footerColMarginLeft{
+    margin-left: 4%;
+}
+.addresstext{
+    color: #cbc4b0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+@media only screen 
+and (max-device-width : 480px){
+.Container{
+    width:100%;
+  }
+  .header-logo{
+      display: none;
+  }
+  .menu-container{
+      display: none;
+  }
+  .mainMenu{
+      margin: 4% 0 auto;
+  }
+  .text-container span{
+      font-size: 24px;
+  }
+  .updateTop{
+      display: none;
+  }
+  .comingSalesText{
+      width: 88%;
+  }
+  .northCentral{
+      width: 86%;
+      margin-top: 5%;
+  }
+  .upcomingSales{
+      width: 100%;
+  }
+  .footerLocation{
+      width: 80%;
+      padding-bottom: 30px;
+  }
+  .footerBorder{
+      border: none;
+  }
+  .addresstext{
+      float: left;
+  }
+  .marketReportText{
+      width: 50%;
+  }
+  .sliderMenu{
+      /*display: none;*/
+  }
+  .sliderBackgroundImage{
+      margin-top: 0px;
+  }
+  .slider-button{
+    background: rgba(0, 0, 0, 0) url("slider_first_button.png") no-repeat scroll 0 0 / 66% auto;
+  }
+  .sliderButtonTopText{
+    font-size: 17px;
+  }
+  .sliderButtonBottomText{
+    font-size: 14px;
+    top: 32%;
+  }
+  .slider-second-button{
+    background: rgba(0, 0, 0, 0) url("slider_first_button.png") no-repeat scroll 0 0 / 66% auto;
+  }
+  .sliderMenu{
+    margin-left: 0%;
+  }
+  .sliderMenu ul li {
+        border-bottom: 1px solid #000000;
+        width: 95%;
+        border-right: none;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-width: 767px){
+    .header-logo{
+      display: none;
+  }
+  .menu-container{
+      display: none;
+  }
+  .Container{
+      width: 100%;
+    }
+    .mainMenu{
+        margin: 0;
+    }
+    .sliderMenu ul li {
+        border-bottom: 1px solid #000000;
+        width: 95%;
+        border-right: none;
+    }
+    .sliderMenu{
+        margin-left: 0;
+        width: 100%;
+    }
+    .updateImage{
+        background: rgba(0, 0, 0, 0) url("updated.png") no-repeat scroll 0 0 / 95% 100%;
+    }
+    .updateImageText {
+        margin-top: 1%;
+        width: 90%;
+}
+    .comingSalesText{
+          width: 88%;
+      }
+      .northCentral{
+          margin-left: 0%;
+      }
+      .marketReportText{
+          width: 39%;
+      }
+      .text-container span{
+          padding: 0 10px;
+      }
+}
+@media only screen and (min-device-width: 768px) and (max-width: 920px){
+.Container{
+      width: 100%;
+    }
+    .header-logo{
+        float: left;
+        margin-left: 0%;
+    }
+    .menu-main-container{
+        float: left;
+        width: 80%;
+    }
+    .text-container span{
+        font-size: 23px;
+    }
+    .sliderMenu {
+        margin-left: 12%;
+        width: 90%;
+    }
+    .sliderMenu ul li a{
+        font-size: 13px;
+        letter-spacing: 1.02px;
+    }
+    .sliderBackgroundImage{
+        margin-top: -34px;
+    }
+    .comingSalesText{
+        width: 85%;
+    }
+    .marketReportText{
+        width: 38%;
+    }
+    .northCentral{
+        margin-left: 0%;
+    }
+    .updateImage{
+        background: rgba(0, 0, 0, 0) url("updated.png") no-repeat scroll 0 0 / 95% 100%;
+    }
+    .updateImageText{
+        width: 90%;
+        margin-top: 1%;
+    }
+    .sliderImageSize{
+        width: 97%;
+    }
+}
